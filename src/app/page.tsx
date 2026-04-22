@@ -28,7 +28,8 @@ const SERVICES = [
     tag: "Service 01",
     icon: MonitorCheck,
     title: "White-Label Testing Engine",
-    desc: "Fully branded CBT platform — your logo, your domain, your experience. GATE 2026-style UI powered by Proctera infrastructure.",
+    desc: "A fully customizable CBT platform with your branding, domain, and a smooth, professional test experience powered by Proctera."
+    // desc: "Fully branded CBT platform — your logo, your domain, your experience. GATE 2026-style UI powered by Proctera infrastructure.",
   },
   {
     tag: "Service 02",
@@ -63,6 +64,20 @@ const FOUNDERS = [
     name: "Kamlesh Suthar",
     image: "/kamlesh.jpg",
     email: "kamleshsuthar.dev@gmail.com",
+    // linkedin: "https://www.linkedin.com/in/kamlesh-suthar/",
+  },
+  {
+    initials: "BS",
+    name: "Banti Saini",
+    image: "/banti.jpeg",
+    email: "bantysaini28072005@gmail.com",
+    // linkedin: "https://www.linkedin.com/in/kamlesh-suthar/",
+  },
+  {
+    initials: "ML",
+    name: "Manus Limbachiya",
+    image: "/manus.webp",
+    email: "limbachiyamanus31@gmail.com",
     // linkedin: "https://www.linkedin.com/in/kamlesh-suthar/",
   },
 ];
@@ -162,8 +177,10 @@ export default function Home() {
 
             {/* Description */}
             <p className="mt-[clamp(16px,2.5vh,26px)] font-sans text-[clamp(0.75rem,1.1vw,0.92rem)] font-light leading-relaxed text-[hsl(var(--muted-foreground))] max-w-[420px] border-l-[3px] border-[var(--brand-yellow)] pl-[clamp(12px,1.5vw,18px)] animate-in fade-in duration-700 delay-700">
-              White-label testing infrastructure for coaching institutes &amp; EdTech companies —
-              GATE-style exams, student management, and live monitoring under your own brand.
+              {/* White-label testing infrastructure for coaching institutes &amp; EdTech companies —
+              GATE-style exams, student management, and live monitoring under your own brand. */}
+
+              White-label testing infrastructure for coaching institutes &amp; EdTech companies — exam-grade interface, student management, and live monitoring under your own brand.
             </p>
 
             {/* Services */}
@@ -326,7 +343,7 @@ export default function Home() {
             <div className="font-mono text-[clamp(0.42rem,0.62vw,0.5rem)] tracking-[0.16em] uppercase text-[hsl(var(--muted-foreground))] text-right leading-relaxed">
               B2B White-Label · Institutes → Batches → Students
               <br />
-              <span className="opacity-60">© 2025 Proctera. All rights reserved.</span>
+              <span className="opacity-60">© 2026 Proctera. All rights reserved.</span>
             </div>
           </div>
         </footer>
